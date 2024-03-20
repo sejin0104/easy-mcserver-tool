@@ -10,5 +10,5 @@ Easy Minecraft Server Management Tool
 
 ## 의존성
 
-Paper API(https://docs.papermc.io/misc/downloads-api)
+[Paper API](https://docs.papermc.io/misc/downloads-api)
 

@@ -41,11 +41,11 @@ def download_latest_stable_build(project, minecraft_version):
 
 # Example usage
 PROJECT = "paper"
-MINECRAFT_VERSION = "1.20.4"
+MINECRAFT_VERSION = "1.20.2"
 
 latest_stable_build = get_latest_stable_build(PROJECT, MINECRAFT_VERSION)
 if latest_stable_build:
-    print(f"{PROJECT} 프로젝트의 마인크래프트 버전 {MINECRAFT_VERSION}의 마지막 빌드인 {latest_stable_build} 버전이 다운로드 됐습니다.")
+    print(f"{PROJECT} 프로젝트의 마인크래프트 버전 {MINECRAFT_VERSION}의 마지막 빌드인 {latest_stable_build}를 다운로드 중입니다.")
     download_latest_stable_build(PROJECT, MINECRAFT_VERSION)
 else:
     print("빌드를 찾을 수 없습니다.")
